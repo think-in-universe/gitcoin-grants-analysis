@@ -7,9 +7,9 @@ Below are some clusions about the research.
 We tried to answer the questions about (1) the **bias** in the contribution, and (2) the possible **collusion** that we can found by analyzing IP addressed and paired contributions.
 
 
-### Patterns / Trends
+### Bias Analysis
 
-It's interesting to learn about the patterns/trends in the CLR grants/contributions to understand how this mechanism works, and pros/cons of this design.
+It's interesting to learn about the patterns/trends especially the bias, in the CLR grants/contributions, to understand how this mechanism works, and pros/cons of this design.
 
 1. When Liberal Radicalism is designed for public good, the bias we found in **tags, keywords, and history**, do reflect its intention to **support the community's public good**. The focus on the "Ethereum" related keywords demonstrated the shared public benefits of the community, but it also indicates that the Gitcoin community may not be active to fund open source projects in a broader and general space of open source projects outside the Ethereum and blockchain world.
 
