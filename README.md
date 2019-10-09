@@ -31,10 +31,9 @@ It's interesting to learn about the patterns/trends, especially the bias, in the
 
 We do find interesting clues for collusion analyisis, and further analysis could be done to confirm the details.
 
-1. By grouping the contributions from the same IP address, but are submitted from multiple profiles, we're able to detect **14** groups of grants that are possibly related to each other.
+1. By grouping the contributions from the same IP address, but submitted from multiple profiles, we're able to detect **14** groups of grants that are possibly related to each other.
 
-1. In the pairwise coordination, it's interesting to find quite a few pair of profiles/users have apparent shared interests in grants. For example, the top 1 pair profiles (`5b35dfc38e8523fe86422a9a12524ae02bc8d40448a4a1db96af800b` and `775fec778ed2672f511d864e139552a3690de36a93de3a8733773678`), shared **34 grants** in their contribution (more than 1/3 of the total number of grants). **102** pairs of contributors have more than 10 shared grants in Round 3.  Further analyiss needs to be done to understand the relationship between the users.
-
+1. In the pairwise coordination, it's interesting to find quite a few pair of profiles/users have apparent shared interests in grants. **102** pairs of contributors have more than 10 shared grants in Gitcoin Grants CLR Round 3. By looking into more detials, we find that the top 1 pair profiles (`5b35dfc38e8523fe86422a9a12524ae02bc8d40448a4a1db96af800b` and `775fec778ed2672f511d864e139552a3690de36a93de3a8733773678`), shared **34 grants** in their contribution (more than 1/3 of the total number of grants). The two users are ranked top 2 by the number of grants they contributed (73 and 53 respectively). The interesting part is that `5b35dfc38e8523fe86422a9a12524ae02bc8d40448a4a1db96af800b` has granted 25K+ USD in total, while `775fec778ed2672f511d864e139552a3690de36a93de3a8733773678` has granted 5 USD in total for 53 projects, with 0.0943 USD for each contribution evenly, within 4 to 5 hours.
 
 For more details about this report, check the [Jupyter Notebook](./analysis.ipynb) to learn more.
 
