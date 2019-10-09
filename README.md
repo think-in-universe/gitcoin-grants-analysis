@@ -41,7 +41,8 @@ For more details about this report, check the [Jupyter Notebook](./analysis.ipyn
 
 Add more data sources
 
-1. More datasets about the activities data on social media, GitHub, etc. of the projects leads and fund contributors are necessary to analyze the bias towards social impact and the further investigation about the offchain collusion.
+1. We need to incorporate more data from Gitcoin activities to understand the behaviors of the users.
+1. More datasets about the activities data on social media, GitHub, etc. of the projects leads and fund contributors are necessary to analyze the bias towards social impact and the do further investigation about the offchain collusion.
 
 Generalize the research
 
