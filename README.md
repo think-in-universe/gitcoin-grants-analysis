@@ -3,9 +3,8 @@
 In this project, we worked on analyzing the GitCoin Grants CLR Round 3 dataset to understand how the mechanism of CLR works, and how it demonstrates the value of the mechanism, and what's the major issues it faces and how to improve.
 
 ### Background
-
+  
 [![Gitcoin Grants](http://img.youtube.com/vi/eVgEWSPFR2o/0.jpg)](https://youtu.be/eVgEWSPFR2o)
-<center> video from: https://gitcoin.co/grants/ </center>
 
 This research report is built for understanding the patterns and issues in [Gitcoin Grants](https://gitcoin.co/grants/), especially for Gitcoin Grants CLR Round 3. For more details about the background, check out this Gitcoin issue to learn more: https://gitcoin.co/issue/gitcoinco/data-ops/40/3530
 
