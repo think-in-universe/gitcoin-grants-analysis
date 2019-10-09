@@ -24,3 +24,12 @@ We do find interesting clues for collusion analyisis, and further analysis could
 
 For more details about this report, check the [Jupyter Notebook](./analysis.ipynb) to learn more.
 
+### Future Plan
+
+Add more data sources
+
+1. More datasets about the activities data on social media, GitHub, etc. of the projects leads and fund contributors are necessary to analyze the bias towards social impact and the further investigation about the offchain collusion.
+
+Generalize the research
+
+1. Apply the same model of CLR data analysis to more areas of public good, in order to improve the mechanism and strategy of CLR.
