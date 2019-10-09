@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi.ustc"
+url = "https://pypi.mirrors.ustc.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+ipython = "*"
+jupyter = "*"
+matplotlib = "*"
+
+[requires]
+python_version = "3.7"
