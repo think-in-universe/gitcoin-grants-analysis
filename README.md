@@ -31,9 +31,16 @@ It's interesting to learn about the patterns/trends, especially the bias, in the
 
 We do find interesting clues for collusion analyisis, and further analysis could be done to confirm the details.
 
-1. By grouping the contributions from the same IP address, but submitted from multiple profiles, we're able to detect **14** groups of grants that are possibly related to each other.
+### Collusion Analysis
+
+We do find interesting clues for collusion analyisis, and further analysis could be done to confirm the details.
+
+1. By grouping the contributions from the same IP address, but submitted from multiple profiles, we could find **14** suspecious IP addresses are used by **34** users to make **34** contributions. This brings us a question: is is possible there're 14 people/entities that used the 34 accounts to make exact one contribution by every account? If the answer is yes, why did he/she/they needs to do that? Besides, we need to analyze the **14** groups of grants that are possibly related to each other.
 
 1. In the pairwise coordination, it's interesting to find quite a few pair of profiles/users have apparent shared interests in grants. **102** pairs of contributors have more than 10 shared grants in Gitcoin Grants Round 3 CLR. By looking into more detials, we find that the top 1 pair profiles (`5b35dfc38e8523fe86422a9a12524ae02bc8d40448a4a1db96af800b` and `775fec778ed2672f511d864e139552a3690de36a93de3a8733773678`), shared **34 grants** in their contribution (more than 1/3 of the total number of grants). The two users are ranked top 2 by the number of grants they contributed (73 and 53 respectively). The interesting part is that `5b35dfc38e8523fe86422a9a12524ae02bc8d40448a4a1db96af800b` has granted 25K+ USD in total, while `775fec778ed2672f511d864e139552a3690de36a93de3a8733773678` has granted 5 USD in total for 53 projects, with 0.0943 USD for each contribution evenly, within 4 to 5 hours.
+
+1. By combing results of the above two kinds of analysis towards shared IP addresses and paired contributors, we can narrow down the investigation to find issues faster. By looking at the intersection of the users from the above two analysis, we found the below two profiles may worth investigation first: `ae03c652db8c8a17ea7a89c0593da5ed6c22598fa7a050210c5feb16` and `54356585c9c19db59c4fefd8d157db60bd084fd5218d10c754f46b55`.
+
 
 For more details about this report, check the [Jupyter Notebook](./analysis.ipynb) to learn more.
 
@@ -42,7 +49,7 @@ For more details about this report, check the [Jupyter Notebook](./analysis.ipyn
 Add more data sources
 
 1. We need to incorporate more data from Gitcoin activities to understand the behaviors of the users.
-1. More datasets about the activities data on social media, GitHub, etc. of the projects leads and fund contributors are necessary to analyze the bias towards social impact and the do further investigation about the offchain collusion.
+2. More datasets about the activities data on social media, GitHub, etc. of the projects leads and fund contributors are necessary to analyze the bias towards social impact and the do further investigation about the offchain collusion.
 
 Generalize the research
 
