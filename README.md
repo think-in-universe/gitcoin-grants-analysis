@@ -38,6 +38,8 @@ We do find interesting clues for collusion analyisis, and further analysis could
 
 3. By combing results of the above two kinds of analysis towards shared IP addresses and paired contributors, we can narrow down the investigation to find issues faster. By looking at the intersection of the users from the above two analysis, we found the below two profiles may worth investigation first: `ae03c652db8c8a17ea7a89c0593da5ed6c22598fa7a050210c5feb16` and `54356585c9c19db59c4fefd8d157db60bd084fd5218d10c754f46b55`. Similar to `775fec778ed2672f511d864e139552a3690de36a93de3a8733773678`, `ae03c652db8c8a17ea7a89c0593da5ed6c22598fa7a050210c5feb16` has made 5 USD contribution in total, split into 19 contributions evenly, 0.263 USD per contribution. We may request extra info from Gitcoin team to understand why this happens, if these accounts need more attention and analysis.
 
+4. By combining the results, we can also find the shared grants that are contributed by the accounts that are controlled by the same IPs from the
+There're **11** such IPs and **26** such accounts / profiles. For example, the IP address `2ceb75027f1a1132d6cf349ea2bcd918b0f79acdb65c4f68dbf06154` has contributed to grant `/grants/79/lodestar-eth20-client` with 4 different accounts, each with **10 USD**, which probably is kind of collusion
 
 For more details about this report, check the [Jupyter Notebook](./analysis.ipynb) to learn more.
 
